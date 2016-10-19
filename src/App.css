@@ -1,0 +1,40 @@
+.App {
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 45px;
+}
+
+
+/*nav*/
+ul.nav.navbar-nav.navbar-right {
+  margin: 1em;
+}
+
+.navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-link {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: .9em;
+  padding: 0px 2em;
+  background: rgba(0, 0, 0, 0.14);
+  border-radius: 15px;
+  margin: 0 1em;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+/*Grid*/
+.col-lg-3.col-md-4.col-sm-6.col-xs-12 {
+  padding: .1em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
